@@ -201,3 +201,19 @@ td {
 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 	z-index: 3px;
 }
+
+#hotlink {
+	position: absolute;
+	left: 30px;
+	top: 158px;
+	font-size: 25px;
+}
+
+a {
+	color: purple;
+
+}
+
+a:hover {
+	font-size: 30px;
+}

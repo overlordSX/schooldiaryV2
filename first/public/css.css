@@ -1,0 +1,219 @@
+body {
+	background-color: ;
+}
+
+#mondayimage {
+	width:300px;
+	position: absolute;/*нужно чтобы поместить картинку 
+	над таблицей расписания*/
+	left: 50px;
+	border-radius: 7px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	z-index: 2;/*с его помощью картинка не выглядит полупрозрачной*/
+}
+
+#wednesday {
+	font-size: 13px;
+	top: 13px;
+}
+
+table {
+	width: 200px;
+	border-collapse: collapse;
+}
+
+tr {
+	border: 2px solid #333;
+}
+
+td {
+	border: 2px solid #333;
+	padding-left: 50px;
+}
+
+#monday {
+	position: absolute;
+	top: 15px;
+	left: 50px;
+	margin-left: 50px;
+}
+
+#mondayimage:hover {/*В этом месте я делаю так чтобы принаведении
+ позиция сохранялась и картинка исчезала*/
+	width:300px;
+	position: absolute;
+	left: 50px;
+	filter: alpha (Opacity=0);
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	border-radius: 7px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#tuesday {
+	position: absolute;
+	top: 15px;
+	left: 50px;
+	margin-left: 350px;
+}
+
+#tuesdayimage {
+	width:300px;
+	position: absolute;
+	left: 50px;
+	margin-left: 300px;
+	z-index: 2;	
+	border-radius: 7px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#tuesdayimage:hover {
+	width:300px;
+	position: absolute;
+	left: 50px;
+	filter: alpha (Opacity=0);
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	border-radius: 7px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#wednesday {
+	position: absolute;
+	left: 50px;
+	margin-left: 650px;
+}
+
+#wednesdayimage {
+	width:300px;
+	position: absolute;
+	left: 50px;
+	margin-left: 600px;
+	z-index: 2;
+	border-radius: 7px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);	
+}
+
+#wednesdayimage:hover {
+	width:300px;
+	position: absolute;
+	left: 50px;
+	filter: alpha (Opacity=0);
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	border-radius: 7px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#thursday {
+	position: absolute;
+	top: 15px;
+	left: 50px;
+	margin-left: 950px;
+}
+
+#thursdayimage {
+	width:300px;
+	position: absolute;
+	left: 50px;
+	margin-left: 900px;
+	z-index: 2;
+	border-radius: 7px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#thursdayimage:hover {
+	width:300px;
+	position: absolute;
+	left: 50px;
+	filter: alpha (Opacity=0);
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	border-radius: 7px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#friday {
+	position: absolute;
+	top: 13px;
+	left: 50px;
+	margin-left: 1250px;
+	font-size: 13px;
+}
+
+#fridayimage {
+	width:300px;
+	position: absolute;
+	left: 50px;
+	margin-left: 1200px;
+	z-index: 2;
+	border-radius: 7px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#fridayimage:hover {
+	width:300px;
+	position: absolute;
+	left: 50px;
+	filter: alpha (Opacity=0);
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	border-radius: 7px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#saturday {
+	position: absolute;
+	top: 15px;
+	left: 50px;
+	margin-left: 1550px;
+}
+
+#saturdayimage {
+	width:300px;
+	position: absolute;
+	left: 50px;
+	margin-left: 1500px;
+	z-index: 2;
+	border-radius: 7px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#saturdayimage:hover {
+	width:300px;
+	position: absolute;
+	left: 50px;
+	filter: alpha (Opacity=0);
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	border-radius: 7px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#sundayimage {
+	height: 788px;
+	padding: 11px;
+	position: absolute;
+	margin:auto;
+	left: 150px;
+	top: 154px;
+	border-radius: 15px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	z-index: 3px;
+}
+
+#hotlink {
+	position: absolute;
+	left: 30px;
+	top: 158px;
+	font-size: 25px;
+}
+
+a {
+	color: purple;
+
+}
+
+a:hover {
+	font-size: 30px;
+}
